@@ -1,7 +1,7 @@
 import React from "react";
-import classes from "./SubBtn.modules.css";
+import classes from "./SubBtn.module.css";
 
-const Button = (props) => {
+const SubBtn = (props) => {
   return (
     <button
       type={props.type || "button"}
@@ -14,4 +14,4 @@ const Button = (props) => {
   );
 };
 
-export default Button;
+export default SubBtn;
